@@ -9,10 +9,9 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 1. Load the dataset containing house features such as area, number of bedrooms, and age of the house along with output values (price and occupants).
-2.Split the dataset into training and testing sets and standardize the input features using StandardScaler.
-3.Train the SGD Regressor model using MultiOutputRegressor for predicting multiple output variables.
-4.Predict the house price and number of occupants for test data and evaluate the model using Mean Squared Error and R² score.
- 
+2. Split the dataset into training and testing sets and standardize the input features using StandardScaler.
+3. Train the SGD Regressor model using MultiOutputRegressor for predicting multiple output variables.
+4. Predict the house price and number of occupants for test data and evaluate the model using Mean Squared Error and R² score.
 
 ## Program:
 ```
